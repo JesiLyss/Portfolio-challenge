@@ -431,4 +431,37 @@ nav{
     .seccion-sobremi p{
         padding-right: 30px;
     }
+/* Estilos para pantallas grandes (escritorio) */
+.container {
+    width: 80%; /* Porcentaje del ancho de la pantalla */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+/* Estilos para pantallas medianas (tabletas) */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Reducir el ancho para adaptarse a pantallas más pequeñas */
+    }
+}
+
+/* Estilos para pantallas pequeñas (teléfonos móviles) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%; /* Ocupa todo el ancho de la pantalla */
+    }
+}
+
+/* Estilos específicos para elementos que necesitan ajustes en dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .elemento {
+        font-size: 14px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+    }
+}
+
+/* Otros estilos comunes para todos los tamaños de pantalla */
+.logo {
+    width: 100px;
+    height: auto;
+}
+
 }
