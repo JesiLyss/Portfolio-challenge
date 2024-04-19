@@ -7,7 +7,7 @@
 </head>
 <body>
     <form class="formcontato__form" action="https://formsubmit.co/amthogomez14@gmail.com" method="POST">
-        <!-- Aquí van los campos del formulario -->
+        
         <input type="text" id="nombre" name="name" placeholder="Nombre" required>
         <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
         <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
